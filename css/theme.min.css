@@ -204,7 +204,7 @@ address {
 }
 
 ul {
-    padding-left: 2rem
+    padding-left: 0;
 }
 
 ul {
@@ -2647,54 +2647,88 @@ body[data-aos-delay="3000"] [data-aos].aos-animate {
 
 [data-aos].aos-animate {
     pointer-events: auto
-}
+}@media (min-width:750px) {
+    .bottom{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .skill li{float:left;
+        margin-right: 50px;
+        text-align: center;
+        width:95px;
+    }
+    .skill{     width: 100%;
+        margin: 0 auto;
+        height:500px;}
+    .skill > h2{
+        text-align:center;
+        MARGIN-TOP: 50PX;
+    }
+    .skill ul{    margin: 0 auto;
+        /* text-align: center; */
+        display: block;
+        width: 90%;
+    }
+    .certificate ul{
+        width:90%;
+        display: block !important;}
+    .certificate li{width:100%;
+        margin-right: 50px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-right: 50px;}
+    li{list-style: none;}
+    .skill img{width:50px;
+                        height:50px;}
+    .certificate{
+        width:100%;
+        margin-top:50px;}	
+    .certificate h2{text-align:center;}				
+    .certificate span{text-align:center;
+                        padding: 0px 60px;
+                    line-height:40px;}		
+                    
+    
+    }
+
 .bottom{
     width: 100%;
     margin: 0 auto;
 }
-.skill li{float:left;
-    margin-left: 70px;
+.skill li{ float: left;
+    margin-right: 50px;
     text-align: center;
-}
-.skill, .certificate{     width: 100%;
+    width: 33.33%;
     margin: 0 auto;
-    padding: 0px 0px 250px;}
+}
+
+.skill{     width: 100%;
+    margin: 0 auto;
+    height:400px;}
 .skill > h2{
     text-align:center;
     MARGIN-TOP: 50PX;
 }
-.skill ul{    margin: 0 auto;
+.skill ul{margin: 0 auto;
     /* text-align: center; */
     display: block;
-    width: 42%;
-}
-.certificate ul{width:70%;
-margin:0 auto;}
-.skill li:nth-child(1){margin-left:0px;}
-.certificate li{    float: left;
-    text-align: center;
     margin: 0 auto;
-    display: block;
-    margin-left: 70px;}
+}
+.certificate ul{width: 90%;
+    margin: 0 auto;
+    display: block;}
+.certificate li{text-align: center;
+    margin: 0 auto;}
 li{list-style: none;}
 .skill img{width:50px;
                     height:50px;}
-.certificate{margin-top:50px;}	
+.certificate{margin-top:50px;
+    margin-bottom: 50px;}	
 .certificate h2{text-align:center;}				
 .certificate span{text-align:center;
                     padding: 0px 60px;
-                line-height:40px;}	
-                .git li{
-                    float: left;
-                    margin-left: 20px;
-                    width: 100px;
-                    height: 30px;
-                    border: 1px solid #ccc;
-                }	
-                .git li:first-child{margin-left:-15px;}
-                .git li h2{font-size: 10px;
-                    text-align: center;
-                    line-height: 29px;}			
+                line-height:40px;}		
                 
 
 @media screen {
