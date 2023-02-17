@@ -77,7 +77,15 @@
 ::before {
     box-sizing: border-box
 }
-
+#col-md{
+    flex: 0 0 auto;
+    width: 16%;
+}
+@media (min-width: 768px)
+#col-md {
+    flex: 0 0 auto;
+    width: 25%;
+}
 @media (prefers-reduced-motion:no-preference) {
     :root {
         scroll-behavior: smooth
