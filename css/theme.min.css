@@ -83,7 +83,7 @@
 }
 @media (min-width: 768px){
 #col-md {
-    width: 100%;
+    width: 100% !important;
 }
 }
 @media (prefers-reduced-motion:no-preference) {
