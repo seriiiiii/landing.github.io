@@ -81,9 +81,10 @@
     flex: 0 0 auto;
     width: 16%;
 }
-@media (min-width: 768px)
+@media (min-width: 768px){
 #col-md {
     width: 100%;
+}
 }
 @media (prefers-reduced-motion:no-preference) {
     :root {
