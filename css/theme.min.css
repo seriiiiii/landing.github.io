@@ -605,7 +605,7 @@ button:not(:disabled) {
 
     .col-md-2 {
         flex: 0 0 auto;
-        width: 16.66667%
+        width: 25%
     }
 
     .col-md-3 {
@@ -2740,6 +2740,7 @@ li{list-style: none;}
     }
 
     html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+        padding-top:10px;
         opacity: 1;
         -webkit-transform: none;
         transform: none
