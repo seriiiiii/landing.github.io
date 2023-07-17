@@ -414,8 +414,9 @@ button:not(:disabled) {
 
 .display-6 {
     font-size: calc(1.375rem + 1.5vw);
-    font-weight: 300;
-    line-height: 1.2
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
 }
 
 @media (min-width:1200px) {
@@ -433,7 +434,7 @@ button:not(:disabled) {
     margin-bottom: 1rem;
     font-size: 1.25rem
 }
-
+.blockquote p{color:#000;}
 .blockquote>:last-child {
     margin-bottom: 0
 }
